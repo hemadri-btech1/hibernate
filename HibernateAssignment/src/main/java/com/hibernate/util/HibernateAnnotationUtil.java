@@ -15,7 +15,6 @@ public class HibernateAnnotationUtil {
         	Configuration configuration = new Configuration();
         	configuration.configure("hibernate-annotation.cfg.xml");
         	System.out.println("Hibernate Annotation Configuration loaded");
-        	
         	ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
         	System.out.println("Hibernate Annotation serviceRegistry created");
         	

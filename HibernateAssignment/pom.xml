@@ -7,12 +7,14 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
+		<!-- MySQL connector -->
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>4.3.5.Final</version>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>6.0.5</version>
 		</dependency>
-		<dependency>
+		<!-- Hibernate 5.2.6 Final -->
+<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.0.5</version>
